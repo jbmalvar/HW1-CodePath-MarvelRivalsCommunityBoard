@@ -1,34 +1,70 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import marvelRivalsImage from './assets/MarvelRivalsImage.jpg'
+import jeff from './assets/jefftheshark.webp'
+import Card from './components/card.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="App">
+      <header className = "header">
+        <img src={marvelRivalsImage} alt="Marvel Rivals" />
+      </header>
+      <h1>Marvel Rivals Recommender</h1>
+      <h2>Marvel Rivals stuff to look at</h2>
+      <div className = "card-container">
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
+        <Card
+          image={jeff}
+          title="Tier List"
+          description="A description of the card"
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
