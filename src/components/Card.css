@@ -19,18 +19,34 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card-title {
+.card h2 {
     font-size: 1.5em;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
-.card-content {
+.card p {
+    color: #666;
     font-size: 1em;
-    color: #333;
+    margin: 8px 0;
 }
 
 .card img {
     width: 100%;
     height: 150px;
     object-fit: contain;
+}
+
+.card button {
+    background-color: black;
+    border: black;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 8px 16px;
+}
+
+.card button:hover {
+    background-color: #333;
+    color: #fff;
 }
