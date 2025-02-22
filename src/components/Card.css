@@ -11,7 +11,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 16px;
     transition: box-shadow 0.3s ease;
-    width: 200px; /* Set a fixed width for the cards */
+    width: 300px;
     box-sizing: border-box;
 }
 
@@ -30,8 +30,7 @@
 }
 
 .card img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
 }
