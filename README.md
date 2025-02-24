@@ -35,6 +35,8 @@ GIF created with ...
 
 [ScreenToGif](https://www.screentogif.com/) for Windows
 
+![Alt Text](src/assets/HW1-Gif.gif)
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
